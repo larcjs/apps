@@ -1,0 +1,6 @@
+[submodule "core"]
+	path = core
+	url = git@github.com:larcjs/core.git
+[submodule "components"]
+	path = components
+	url = git@github.com:larcjs/components.git
