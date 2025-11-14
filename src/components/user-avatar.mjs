@@ -1,0 +1,1 @@
+../../components/src/components/user-avatar.mjs

@@ -1,0 +1,1 @@
+../../components/src/components/pan-store-pan.mjs

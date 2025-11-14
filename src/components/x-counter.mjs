@@ -1,0 +1,1 @@
+../../components/src/components/x-counter.mjs

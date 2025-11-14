@@ -1,0 +1,1 @@
+../../components/src/components/pan-bus-legacy.mjs

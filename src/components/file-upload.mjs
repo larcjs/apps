@@ -1,0 +1,1 @@
+../../components/src/components/file-upload.mjs
