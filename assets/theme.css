@@ -99,7 +99,7 @@
 }
 
 /* Dark Mode - Applied when data-theme="dark" explicitly */
-[data-theme="dark"] {
+:root[data-theme="dark"] {
   /* Primary Sky Blue Color Scheme - Dark Mode - Brighter for contrast */
   --color-primary: #0099dd;
   --color-primary-dark: #0077bb;
@@ -213,7 +213,7 @@
 }
 
 /* Force light mode when explicitly set - must come after media query to override */
-[data-theme="light"] {
+:root[data-theme="light"] {
   /* Primary Sky Blue Color Scheme - Light Mode */
   --color-primary: #006699;
   --color-primary-dark: #004d73;
