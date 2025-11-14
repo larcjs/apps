@@ -618,7 +618,7 @@
 
     // Handle IDB results
     pc.subscribe('contacts.idb.result', (msg) => {
-      const { operation, data } = msg.data;
+      const { operation, items } = msg.data;
 
       switch (operation) {
         case 'add':
@@ -628,7 +628,7 @@
           break;
 
         case 'list':
-          contacts = data.items || [];
+          contacts = items || [];
           filterAndRenderContacts();
           break;
 
